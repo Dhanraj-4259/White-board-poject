@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=v, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="icon" href="./Icons/favicon.ico" type="image/x-icon" /> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Openboard_clone</title>
+</head>
+<body>
+    <!-- <h1>hy welcome to white board Openboard_clone</h1> -->
+    <div class="options-cont">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div class="tools-cont scale-tools">
+        <div class="pencil">
+            <i class="fa-solid fa-pencil"></i>
+        </div>
+        <div class="eraser">
+            <i class="fa-solid fa-eraser"></i>
+        </div>
+        <div class="download">
+            <i class="fa-solid fa-download"></i>
+        </div>
+        <div class="upload">
+            <i class="fa-solid fa-upload"></i>
+        </div>
+        <div class="sticky">
+            <i class="fa-solid fa-note-sticky"></i>
+        </div>
+        <div class="redo">
+            <i class="fa-solid fa-rotate-right"></i>
+        </div>
+        <div class="undo">
+            <i class="fa-solid fa-rotate-left"></i>
+        </div>
+    </div>
+
+    <div class="pencil-tool-cont">
+     <div class="pencil-width-cont">
+         <input type="range" min="2" max="5" value="3" class="pencil-width">
+     </div>
+     <div class="pencil-color-cont">
+         <div class="black-pencil-color"></div>
+         <div class="red-pencil-cont"></div>
+         <div class="blue-pencil-color"></div>
+     </div>
+    </div>
+    <div class="eraser-tool-cont">
+        <input type="range" min="2" max="10" value="3" class="earaser-width">
+    </div>
+
+    <!-- <div class="sticky-cont">
+    <div class="header-cont">
+        <div class="minimize"></div>
+        <div class="remove"></div>
+    </div>
+    <div class="note-cont">
+        <textarea></textarea>
+    </div>
+    </div> -->
+
+    <canvas></canvas>
+    <script src="./tools.js"></script>
+    <script src="./canvas.js"></script>
+</body>
+</html>
